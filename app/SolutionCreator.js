@@ -87,7 +87,9 @@ class SolutionCreator {
     if (solver.countPreliminaryScore) {
       const preliminaryScore = solver.countPreliminaryScore();
 
-      console.warn(`Your preliminary score with solver ${this.solverFilename} is: ${preliminaryScore}`);
+      if (preliminaryScore) {
+        console.warn(`Your preliminary score with solver ${this.solverFilename} is: ${preliminaryScore}`);
+      }
     }
 
     return solution;

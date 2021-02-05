@@ -11,6 +11,7 @@ class ExampleSolver extends ProblemSolver{
 
   // it is mandatory method, should return solution data
   solutionResult() {
+    return this.dataSet;
   }
 
   // to count preliminary score, it is optional and you can omit it's implementing
