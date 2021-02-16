@@ -12,4 +12,6 @@ exports.findUniqueItems = (uniqueSet, items, maxItemsCnt = items.length) => {
       res.push(items[i]);
     }
   }
+
+  return res;
 }
