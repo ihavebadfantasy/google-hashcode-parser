@@ -20,3 +20,5 @@ will be {input file name}.out file which is valid to submit for Google score cou
 Collect.js is listed in package.json as a dependency, it is pretty handy to manipulate arrays but aware of using it in nested cycles because it is pretty slow!
 Collect.js documentation:
 https://collect.js.org/installation.html
+
+Check out helpers folder for some helper functions, feelfree to add your own
