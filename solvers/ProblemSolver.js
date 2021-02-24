@@ -4,7 +4,7 @@ class ProblemSolver {
   constructor(dataSet) {
     this.dataSet = dataSet;
 
-    this.numberizeDataSet();
+    // this.numberizeDataSet();
   }
 
   numberizeDataSet() {
